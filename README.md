@@ -3,7 +3,6 @@ Visualization of pi using d3
 
 thomas.mccauley@cern.ch
 
-http://cmsdoc.cern.ch/~mccauley/pi.html
+https://tpmccauley.github.io/d3-pi
 
 <img src="https://github.com/tpmccauley/d3-pi/blob/master/pi-cropped.png"></img>
-
