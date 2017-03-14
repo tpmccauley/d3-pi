@@ -14,7 +14,7 @@ var out = albers; // initial color
 //var over = dark; // color on mouse over
 
 // Use nds digits
-var nds = 1000;
+var nds = 2000;
 pi = pi.slice(0,nds);
 
 var columns = 40,
@@ -72,7 +72,7 @@ feMerge.append("feMergeNode")
 var nums = svg.selectAll("text").data(pi);
 
 nums.enter()
-	.append("text") 	
+	.append("text")
 	.attr("transform", translate)
 	.attr("dy", 20)
 	.attr("dx", 10)
